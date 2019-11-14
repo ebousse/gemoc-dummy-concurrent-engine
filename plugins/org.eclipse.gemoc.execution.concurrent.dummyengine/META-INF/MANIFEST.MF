@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: dummyengine
+Bundle-Name: org.eclipse.gemoc.execution.concurrent.dummyengine
 Bundle-SymbolicName: org.eclipse.gemoc.execution.concurrent.dummyengine;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
