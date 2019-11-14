@@ -19,7 +19,7 @@ public class DummyConcurrentExecutionContext extends
 	}
 
 	@Override
-	protected IExecutionPlatform createExecutionPlatform() throws CoreException, EngineContextException {
+	protected IExecutionPlatform createExecutionPlatform() throws CoreException {
 		return new DefaultExecutionPlatform(_languageDefinition, _runConfiguration);
 	}
 
