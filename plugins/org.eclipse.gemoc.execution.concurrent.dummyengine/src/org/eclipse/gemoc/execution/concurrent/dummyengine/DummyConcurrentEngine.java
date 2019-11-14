@@ -50,24 +50,21 @@ public class DummyConcurrentEngine
 	@Override
 	protected void doAfterLogicalStepExecution(Step<?> logicalStep) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
 	protected void executeSmallStep(SmallStep<?> smallStep) throws CodeExecutionException {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
-	protected void performInitialize(DummyConcurrentExecutionContext executionContext) {
-		this.changeLogicalStepDecider(executionContext.getLogicalStepDecider());
+	protected void performSpecificInitialize(DummyConcurrentExecutionContext executionContext) {
+		// TODO Auto-generated method stub
 	}
 
 	@Override
 	protected void finishDispose() {
 		// TODO Auto-generated method stub
-
 	}
 
 }
