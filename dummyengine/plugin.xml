@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            delegate="dummyengine.DummyConcurrentLauncher"
+            id="dummyengine.launchConfigurationType1"
+            modes="run, debug"
+            name="Dummy Engine Execution">
+      </launchConfigurationType>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="dummyengine.ui.DummyConcurrentLauncherTabGroup"
+            id="dummyengine.launchConfigurationTabGroup1"
+            type="dummyengine.launchConfigurationType1">
+      </launchConfigurationTabGroup>
+   </extension>
+
+</plugin>
