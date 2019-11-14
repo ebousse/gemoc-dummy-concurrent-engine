@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: dummylanguage
-Bundle-SymbolicName: dummylanguage;singleton:=true
+Bundle-SymbolicName: org.eclipse.gemoc.execution.concurrent.dummyengine.examplelanguage;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Require-Bundle: org.eclipse.emf.ecore,
- dummyengine;bundle-version="0.1.0",
+ org.eclipse.gemoc.execution.concurrent.dummyengine;bundle-version="0.1.0",
  org.eclipse.gemoc.execution.sequential.javaxdsml.api,
  org.eclipse.gemoc.executionframework.extensions.sirius;bundle-version="4.0.0"
 Automatic-Module-Name: dummylanguage

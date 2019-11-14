@@ -1,4 +1,4 @@
-package dummyengine;
+package org.eclipse.gemoc.execution.concurrent.dummyengine;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.gemoc.execution.concurrent.ccsljavaengine.commons.BaseConcurrentModelExecutionContext;

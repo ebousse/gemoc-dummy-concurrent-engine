@@ -1,4 +1,4 @@
-package dummyengine;
+package org.eclipse.gemoc.execution.concurrent.dummyengine;
 
 import java.util.ArrayList;
 import java.util.List;

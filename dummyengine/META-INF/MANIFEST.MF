@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: dummyengine
-Bundle-SymbolicName: dummyengine;singleton:=true
+Bundle-SymbolicName: org.eclipse.gemoc.execution.concurrent.dummyengine;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.gemoc.execution.concurrent.ccsljavaxdsml.api;bundle-version="1.0.0",
