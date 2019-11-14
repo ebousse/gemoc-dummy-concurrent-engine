@@ -3,6 +3,7 @@ package org.eclipse.gemoc.execution.concurrent.dummyengine;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.eclipse.gemoc.execution.concurrent.ccsljavaengine.commons.ConcurrentRunConfiguration;
 import org.eclipse.gemoc.execution.concurrent.ccsljavaxdsml.api.core.AbstractConcurrentExecutionEngine;
 import org.eclipse.gemoc.execution.concurrent.ccsljavaxdsml.api.dsa.executors.CodeExecutionException;
 import org.eclipse.gemoc.trace.commons.model.generictrace.GenericParallelStep;
@@ -15,7 +16,7 @@ import org.eclipse.gemoc.trace.commons.model.trace.Step;
 import org.eclipse.gemoc.trace.commons.model.trace.TraceFactory;
 
 public class DummyConcurrentEngine
-		extends AbstractConcurrentExecutionEngine<DummyConcurrentExecutionContext, DummyConcurrentRunConfiguration> {
+		extends AbstractConcurrentExecutionEngine<DummyConcurrentExecutionContext, ConcurrentRunConfiguration> {
 
 	private int dummyCounter = 0;
 
