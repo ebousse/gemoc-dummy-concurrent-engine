@@ -5,7 +5,9 @@ Bundle-SymbolicName: org.eclipse.gemoc.execution.concurrent.dummyengine.examplel
 Bundle-Version: 0.1.0.qualifier
 Require-Bundle: org.eclipse.emf.ecore,
  org.eclipse.gemoc.execution.concurrent.dummyengine;bundle-version="0.1.0",
- org.eclipse.gemoc.execution.sequential.javaxdsml.api,
- org.eclipse.gemoc.executionframework.extensions.sirius;bundle-version="4.0.0"
+ org.eclipse.gemoc.executionframework.extensions.sirius;bundle-version="0.0.0";visibility:=reexport,
+ org.eclipse.gemoc.xdsmlframework.api;bundle-version="4.0.0";visibility:="reexport",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.8.0";visibility:="reexport",
+ org.eclipse.gemoc.executionframework.engine;bundle-version="4.0.0";visibility:="reexport"
 Automatic-Module-Name: dummylanguage
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8

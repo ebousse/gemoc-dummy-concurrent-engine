@@ -29,10 +29,10 @@ import org.eclipse.gemoc.execution.concurrent.ccsljavaengine.commons.ConcurrentR
 import org.eclipse.gemoc.execution.concurrent.ccsljavaxdsml.api.extensions.deciders.DeciderSpecificationExtension;
 import org.eclipse.gemoc.execution.concurrent.ccsljavaxdsml.api.extensions.deciders.DeciderSpecificationExtensionPoint;
 import org.eclipse.gemoc.execution.concurrent.dummyengine.Activator;
-import org.eclipse.gemoc.execution.sequential.javaxdsml.api.extensions.languages.SequentialLanguageDefinitionExtensionPoint;
 import org.eclipse.gemoc.executionframework.engine.commons.DslHelper;
 import org.eclipse.gemoc.executionframework.engine.core.RunConfiguration;
 import org.eclipse.gemoc.xdsmlframework.api.extensions.languages.LanguageDefinitionExtension;
+import org.eclipse.gemoc.xdsmlframework.api.extensions.languages.LanguageDefinitionExtensionPoint;
 import org.eclipse.gemoc.xdsmlframework.ui.utils.dialogs.SelectAIRDIFileDialog;
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.osgi.util.NLS;
@@ -313,7 +313,7 @@ public class DummyLaunchConfigurationMainTab extends DummyLaunchConfigurationTab
 		super.updateLaunchConfigurationDialog();
 		// modelInitializationMethod must come from the xdsml, maybe later we would
 		// allows an "expert mode" where we will allow to change it there
-		LanguageDefinitionExtension languageDefinitionExtPoint = SequentialLanguageDefinitionExtensionPoint
+		LanguageDefinitionExtension languageDefinitionExtPoint = LanguageDefinitionExtensionPoint
 				.findDefinition(_languageCombo.getText());
 
 		if (languageDefinitionExtPoint != null) {
